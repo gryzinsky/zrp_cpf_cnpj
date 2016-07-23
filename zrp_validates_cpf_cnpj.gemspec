@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "validates_cpf_cnpj/version"
+require "zrp_validates_cpf_cnpj/version"
 
 Gem::Specification.new do |s|
   s.name        = "zrp_validates_cpf_cnpj"
