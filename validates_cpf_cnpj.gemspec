@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "zrp_validates_cpf_cnpj/version"
+require "validates_cpf_cnpj/version"
 
 Gem::Specification.new do |s|
-  s.name        = "zrp_validates_cpf_cnpj"
+  s.name        = "validates_cpf_cnpj"
   s.version     = ValidatesCpfCnpj::VERSION
   s.authors     = ["Reginaldo Francisco", "Rafael Costella", "Pedro Gryzinsky"]
   s.email       = ["naldo_ds@yahoo.com.br", "rafael.costella@zrp.com.br", "pedro.gryzinsky@zrp.com.br"]
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{CPF/CNPJ ActiveModel validations}
   s.description = %q{CPF and CNPJ validations for ActiveModel and Rails}
 
-  s.rubyforge_project = "zrp_validates_cpf_cnpj"
+  s.rubyforge_project = "validates_cpf_cnpj"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

@@ -1,6 +1,6 @@
 require 'active_model'
-require 'zrp_validates_cpf_cnpj/cpf'
-require 'zrp_validates_cpf_cnpj/cnpj'
+require 'validates_cpf_cnpj/cpf'
+require 'validates_cpf_cnpj/cnpj'
 
 module ActiveModel
   module Validations
